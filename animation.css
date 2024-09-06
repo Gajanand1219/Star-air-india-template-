@@ -1,0 +1,330 @@
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+  background-color: white;
+  font-family: sans-serif;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px;
+  color: black;
+}
+nav a:hover {
+  color: #dfe2d8;
+  background-color: #9caccb;
+  border-radius: 20px;
+  box-shadow: -3px 4px 24px 12px rgb(179, 161, 161);
+}
+
+.container {
+  background: url(https://images4.alphacoders.com/286/286536.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 20px;
+}
+.container .container1 {
+  width: 80%;
+  height: 170px;
+  background-color: white;
+  box-shadow: -3px 4px 24px 12px rgb(179, 161, 161);
+  margin: 7%;
+  margin-left: 200px;
+  border-radius: 10px;
+}
+
+.main1 {
+  padding: 20px;
+}
+
+.main {
+  display: flex;
+}
+
+select {
+  width: 150px;
+  height: 50px;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+}
+
+.main2 {
+  margin-left: 10px;
+  border-right: 1px solid black;
+  width: 200px;
+  cursor: pointer;
+}
+
+.main3 {
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+input[type=date] {
+  border: none;
+  padding: 10px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.main5 {
+  border-left: 1px solid black;
+  margin-left: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+button {
+  /* width: 80px; */
+  height: 50px;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+h1 {
+  padding-left: 90px;
+}
+
+h3 {
+  color: hsl(131, 85%, 5%);
+  text-align: end;
+  margin-right: 190px;
+}
+
+.card {
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.card .card1 {
+  background-color: white;
+  box-shadow: -3px 4px 24px 12px rgba(198, 195, 216, 0.48);
+  width: 30%;
+  height: 100px;
+  margin-left: 20px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 40px;
+  font-size: x-large;
+}
+.card .card1:hover {
+  transform: scale(0.9);
+}
+
+.section1 {
+  display: flex;
+  padding-left: 20px;
+}
+.section1 .section2 img {
+  display: grid;
+  border: 5px solid rgb(239, 234, 234);
+  margin-right: 10px;
+  box-shadow: -3px 4px 24px 12px rgba(198, 195, 216, 0.48);
+}
+.section1 .section2 img:hover {
+  border-radius: 50px 10px;
+  box-shadow: -3px 4px 24px 12px rgba(196, 8, 26, 0.48);
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  padding-left: 10px;
+  box-shadow: -3px 4px 24px 12px rgba(183, 181, 193, 0.48);
+  background-color: none;
+}
+
+.section3 img {
+  border: 9px solid aqua;
+  border-radius: 20px 30px;
+}
+
+.section3 img:hover {
+  border: 5px solid rgb(10, 229, 211);
+  border-radius: 50px 10px;
+  box-shadow: -3px 4px 24px 12px rgba(31, 11, 146, 0.48);
+  margin: 5px;
+}
+
+.WHY_STAR_AIR {
+  padding-left: 80px;
+  color: rgb(178, 101, 39);
+}
+
+.card2 {
+  background-color: white;
+  min-width: 30%;
+  min-height: 400px;
+  margin-left: 40px;
+  border-radius: 20px;
+  margin-top: 200px;
+  padding-top: 10px;
+  font-size: x-large;
+  box-shadow: -1px 1px 24px 2px rgb(149, 135, 135);
+}
+.card2 .card2:hover {
+  box-shadow: -3px 4px 24px 12px rgba(71, 13, 196, 0.48);
+}
+.card2 span {
+  float: inline-end;
+}
+.card2 .logo {
+  margin-left: 50px;
+}
+.card2 img:hover {
+  transform: rotateY(360deg);
+  transition: 2s;
+}
+.card2 h2 {
+  padding-left: 60px;
+}
+.card2 h4 {
+  padding-left: 40px;
+}
+
+.h5 {
+  padding-top: 15%;
+  font-size: larger;
+  color: goldenrod;
+  text-align: center;
+}
+
+.update {
+  text-align: center;
+}
+
+.mango {
+  display: flex;
+  border-bottom: 1px solid black;
+  margin-left: 1px;
+}
+.mango .mango1 {
+  margin: 20px;
+  width: 220px;
+  height: 180px;
+}
+.mango .mango1:hover {
+  box-shadow: -3px 4px 24px 12px rgba(100, 85, 180, 0.48);
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 66px;
+  background-color: rgb(11, 76, 76);
+  color: white;
+  height: 2%;
+  box-shadow: -3px 4px 24px 12px rgb(126, 122, 122);
+}
+.footer1 .text a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  display: block;
+  margin: 10px;
+  margin-left: 80px;
+}
+.footer1 .text a:hover {
+  color: #76c90a;
+  scale: 1.1;
+  text-align: start;
+}
+.footer1 .icon a {
+  border: 2px solid white;
+  color: rgb(169, 209, 241);
+  background-color: rgb(124, 100, 100);
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+.footer1 .icon a.facebook:hover {
+  color: white;
+  background-color: #4267B2;
+  border: 1px solid rgb(189, 249, 253);
+  box-shadow: -3px 4px 24px 12px rgba(198, 195, 216, 0.48);
+  scale: 1.1;
+}
+.footer1 .icon a.instragram:hover {
+  color: #5B51D8;
+  background-color: white;
+  border: 2px solid yellowgreen;
+  box-shadow: -3px 4px 24px 12px rgba(198, 195, 216, 0.48);
+  scale: 1.1;
+}
+.footer1 .icon a.whatsapp:hover {
+  color: white;
+  background-color: #1cee42;
+  border: 2px solid white;
+  box-shadow: -3px 4px 24px 12px rgba(198, 195, 216, 0.48);
+}
+.footer1 .icon a.linkedin:hover {
+  color: white;
+  background-color: #4267B2;
+  border: 2px solid blue;
+  box-shadow: -3px 4px 24px 12px rgba(198, 195, 216, 0.48);
+  transform: scale(1.1);
+}
+
+.number {
+  font-size: xx-large;
+  margin-top: 0px;
+}
+
+.email {
+  color: yellow;
+  margin: 0px;
+  padding: 0px;
+}
+
+h5 {
+  font-size: x-large;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(37, 34, 34);
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+footer .nav a {
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px;
+  color: #1cee42;
+}
+footer .footer2 span {
+  color: yellow;
+  margin-right: 200px;
+}/*# sourceMappingURL=animation.css.map */
