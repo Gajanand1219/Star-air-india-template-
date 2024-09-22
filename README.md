@@ -39,6 +39,7 @@ The header includes a company logo and a navigation bar with links to different 
 ### Purpose & Visual Impact:
 - The logo immediately communicates the brand identity.
 - The navigation bar provides quick access to other important sections of the website, enhancing the user experience.
+![Screenshot 2024-09-22 223219](https://github.com/user-attachments/assets/ed9df7eb-d8c4-4546-9fcd-5f432a3399d7)
 
 ## 2. Flight Search Form (Main Container)
 
